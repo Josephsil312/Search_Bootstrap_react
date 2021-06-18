@@ -9,7 +9,7 @@ function Search() {
         type="text"
         placeholder="Search"
         className="form-control"
-        style={{ marginTop: 50, marginBottom: 20, width: "40%" }}
+        style={{ marginTop: 50, marginBottom: 20, width: "100%" }}
         onChange = {(e) => {
             setsearchTerm(e.target.value);
         }}
