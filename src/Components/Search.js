@@ -15,14 +15,14 @@ function Search() {
         }}
       />
       <table className="table table-striped">
-        <thread className="table-dark">
+        <thead className="table-dark">
           <tr>
             <th>SL no</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Email</th>
           </tr>
-        </thread>
+        </thead>
         <tbody>
           {MockData.filter(val => {
               if (searchTerm === ''){
